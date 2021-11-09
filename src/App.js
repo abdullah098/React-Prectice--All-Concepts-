@@ -1,11 +1,6 @@
-import { Route, Routes } from 'react-router-dom';
-import Navbar from './Layouts/Navbar/navbar.jsx';
-import OpctionBar from './Components/optionBar.jsx';
-import Hero from './Components/hero.jsx';
-import Awards from './Components/awards.jsx';
-import Pictures from './Components/pictures';
+import { Route, Switch } from 'react-router-dom';
 import SignUp from './Components/signup.jsx';
-
+import { ProtectedRoute } from './Routes/ProtecedRoutes';
 import './App.css';
 import Dashboard from './Components/dashboard.jsx';
 import Home from './Components/home.jsx';
@@ -43,11 +38,14 @@ function App() {
   return (
     <>
 
-      <Routes>
-        <Route path='/' element={<Home />}  ></Route>
-        <Route path='/dashboard' element={<Dashboard />}  ></Route>
-        <Route exact path='/signup' element={<SignUp />} ></Route>
-      </Routes>
+      <Switch>
+        
+        {/* <Route path='/dashboard' exact component={Dashboard }  ></Route> */}
+        <ProtectedRoute path='/dashboard' exact component={Dashboard }  ></ProtectedRoute>
+        <Route path='/signup' exact component={SignUp } ></Route>
+        <Route path='/' component={Home }  ></Route>
+        
+      </Switch>
 
       {/* <Redirect from="/" to="/src/App.js" /> */}
 

@@ -1,38 +1,24 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import axios from 'axios';
+import { useHistory } from 'react-router';
 import { useContext } from 'react';
-import AuthContextprovider, { AuthContext } from '../../context/Context.js';
-import { Link } from 'react-router-dom';
+import { AuthContext } from '../../context/Context.js';
 
 const LoginModel = () => {
-    const { user, Login, isLogin } = useContext(AuthContext);
-
-    useEffect(() => {
-        if (isLogin()) {
-            window.location.href = "/dashboard";
-        }
-    });
-
-
+    const {Login} = useContext(AuthContext);
+    const history = useHistory();
 
     const handleLogin = () => {
         const UserName = "admin";
         const Password = "admin123";
 
         axios.post('https://api-erpadmin.jmmtest.xyz/api/Authentication', { UserName, Password }).then(res => {
-            // console.log(res);
             Login(res);
-            window.location.reload();
-
-
+            history.push("/dashboard");
         });
-
-
-
-
-
-
     };
+
+    
 
     return (
         <>

@@ -22,6 +22,7 @@ const Hero = () => {
                         <li><a href="#">walpaper</a>,</li>
                         <li><a href="#">background</a>,</li>
                         <li><a href="#">love</a></li>
+                        
 
                     </ul>
 
