@@ -18,10 +18,10 @@ const Hero = () => {
 
                     <ul>
                         <li><strong>Trading: </strong></li>
-                        <li> <a href="#">flower</a>,</li>
-                        <li><a href="#">walpaper</a>,</li>
-                        <li><a href="#">background</a>,</li>
-                        <li><a href="#">love</a></li>
+                        <li> <a href="a">flower</a>,</li>
+                        <li><a href="a">walpaper</a>,</li>
+                        <li><a href="a">background</a>,</li>
+                        <li><a href="a">love</a></li>
                         
 
                     </ul>

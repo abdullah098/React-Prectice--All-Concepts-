@@ -3,9 +3,9 @@ import React from 'react';
 const MenuDropdown = () => {
     return ( 
         <>
-            <div id="myDropdown" class="dropdown-content">
-                        <div class="menu-box">
-                            <div class="col">
+            <div id="myDropdown" className="dropdown-content">
+                        <div className="menu-box">
+                            <div className="col">
 
 
 
@@ -20,7 +20,7 @@ const MenuDropdown = () => {
                                     <li>Help</li>
                                 </ul>
                             </div>
-                            <div class="col">
+                            <div className="col">
                                 <ul>
                                     <li>About </li>
                                     <li>Bradnd</li>
@@ -32,7 +32,7 @@ const MenuDropdown = () => {
                                     <li>Help</li>
                                 </ul>
                             </div>
-                            <div class="col">
+                            <div className="col">
                                 <ul>
                                     <li>About </li>
                                     <li>Bradnd</li>
@@ -48,10 +48,10 @@ const MenuDropdown = () => {
                         <hr />
 
                         <div>
-                            <button class="button">Licence</button>
-                            <button class="button">Privacy</button>
-                            <button class="button">Terms</button>
-                            <button class="button">Security</button>
+                            <button className="button">Licence</button>
+                            <button className="button">Privacy</button>
+                            <button className="button">Terms</button>
+                            <button className="button">Security</button>
                         </div>
                     </div>
         </>

@@ -22,35 +22,35 @@ const LoginModel = () => {
 
     return (
         <>
-            <div id="myModal" class="modal">
+            <div id="myModal" className="modal">
 
                 {/* <!-- Modal content --> */}
-                <div class="modal-content">
-                    <span class="close">&times;</span>
+                <div className="modal-content">
+                    <span className="close">&times;</span>
 
                     <div style={{ textAlign: "center" }}>
 
-                        <div class="login-width">
+                        <div className="login-width">
                             <img src="./resources/images/logo_login.png" alt="" />
                             <p>to submit a photo, Login</p>
-                            <button class="fb-btn fb-button">
-                                <i class="bi bi-facebook iconFb"></i>
+                            <button className="fb-btn fb-button">
+                                <i className="bi bi-facebook iconFb"></i>
                                 Facebook
                             </button>
                             <br />
                             <p>OR</p>
-                            <form class="login-model-form" action="index.html" method="post" id="login-popup">
-                                <label for="" style={{ textAlign: "start" }}>Email</label>
-                                <input type="email" name="" value="" required />
+                            <form className="login-model-form" action="index.html" method="post" id="login-popup">
+                                <label htmlFor="" style={{ textAlign: "start" }}>Email</label>
+                                <input type="email"  required />
                                 <br />
                                 <br />
-                                <label for="">Password <a href="#">Forgot your password?</a> </label>
+                                <label htmlFor="">Password <a href="a">Forgot your password?</a> </label>
 
-                                <input type="password" name="" value="" required />
+                                <input type="password" required />
                                 <br />
                                 <br />
 
-                                <button type="submit" onClick={handleLogin} name="button" class="login-submit-btn">Login</button>
+                                <button type="submit" onClick={handleLogin} name="button" className="login-submit-btn">Login</button>
 
 
                                 <p>Don't have an account? <a href="./signUp.html">Join</a> </p>

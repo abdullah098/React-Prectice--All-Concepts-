@@ -18,34 +18,34 @@ const Signup = () => {
                 <div className="sign-up">
                     <div className="form-div">
                         <h1>Join Unsplash</h1>
-                        <p>Already have an account? <a href="#">Login</a></p>
+                        <p>Already have an account? <a href="a">Login</a></p>
                         <button type="button " name="button" className="fb-btn"> <span><i
                             className="bi bi-facebook"></i></span> Join Using Facebook</button>
                         <p>OR</p>
                         <form className="flex-form" action="index.html" method="post">
                             <div className="flex justify-Content-around">
                                 <div className="user-name">
-                                    <label for=" ">First Name</label><br />
+                                    <label htmlFor=" ">First Name</label><br />
                                     <input type="text " name=" " value=" " required />
                                 </div>
                                 <div className="user-name ">
-                                    <label for=" ">Last Name</label><br />
+                                    <label htmlFor=" ">Last Name</label><br />
                                     <input type="text " name=" " value=" " required />
                                 </div>
                             </div>
                             <br />
                             <div className=" ">
-                                <label for=" ">Email Address</label><br />
+                                <label htmlFor=" ">Email Address</label><br />
                                 <input type="email " name=" " value=" " required />
                             </div>
                             <br />
                             <div className=" ">
-                                <label for=" ">User Name</label><br />
+                                <label htmlFor=" ">User Name</label><br />
                                 <input type="text " name=" " value=" " required />
                             </div>
                             <br />
                             <div className=" ">
-                                <label for=" ">Password</label><br />
+                                <label htmlFor=" ">Password</label><br />
                                 <input type="password " name=" " value=" " />
                             </div>
                             <br />
@@ -53,7 +53,7 @@ const Signup = () => {
                                 <input type="submit " name=" " value="Join " />
                             </div>
                         </form>
-                        <p>By Joining you agree to the <a href="# ">Terms</a> and <a href="# ">Privacy Policy</a></p>
+                        <p>By Joining you agree to the <a href="a ">Terms</a> and <a href="a ">Privacy Policy</a></p>
                     </div>
 
                 </div>

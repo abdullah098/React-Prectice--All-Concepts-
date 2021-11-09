@@ -44,27 +44,27 @@ const HeroSearch = () => {
                         <div className="flex search-topics">
                             <div className="img-btn">
                             </div>
-                            <a href="#">Nature</a>
+                            <a href="a">Nature</a>
                         </div>
                         <div className="flex search-topics">
                             <div className="img-btn">
                             </div>
-                            <a href="#">People</a>
+                            <a href="a">People</a>
                         </div>
                         <div className="flex search-topics">
                             <div className="img-btn">
                             </div>
-                            <a href="#">current events</a>
+                            <a href="a">current events</a>
                         </div>
                         <div className="flex search-topics">
                             <div className="img-btn">
                             </div>
-                            <a href="#">fashion</a>
+                            <a href="a">fashion</a>
                         </div>
                         <div className="flex search-topics">
                             <div className="img-btn">
                             </div>
-                            <a href="#">experimental</a>
+                            <a href="a">experimental</a>
                         </div>
                     </div>
                 </div>
