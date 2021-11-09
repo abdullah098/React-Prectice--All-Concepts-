@@ -1,0 +1,153 @@
+.sign-up-flex {
+    display: flex;
+}
+
+.side-img {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(34, 34, 34, 0.5)), url("Resources/Images/signup_Full.jpg"); */
+    background-position: bottom;
+    width: 45%;
+    position: relative;
+    padding-top: 240px;
+    flex: 30%;
+}
+
+.side-img-content {
+    color: white;
+    padding: 40px;
+}
+
+.sign-up {
+    text-align: center;
+    flex: 55%;
+    max-width: 75%;
+}
+
+.form-div {
+    width: 80%;
+    margin: auto;
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.flex-form label {
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.flex-form input {
+    width: 96%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 10px 0;
+}
+
+.fb-btn {
+    width: 100%;
+    height: 35px;
+    background: #5890FF;
+    color: #fff;
+}
+
+.flex-form input[type=submit] {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 10px 0;
+    height: 40px;
+    cursor: pointer;
+}
+
+.user-name {
+    flex: 50%;
+    max-width: 100%;
+}
+
+.justify-Content-around {
+    justify-content: space-around;
+}
+
+#loginModal input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 10px 0;
+}
+
+#loginModal input[type=submit] {
+    padding: 10px 150px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#loginModal label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+/*------------- MEDIA QURIES  screen 992px------------- */
+
+@media screen and (max-width: 992px) {
+    /* body{
+      font-size: 14px;
+    } */
+    nav li {
+        margin-left: 1.7rem;
+    }
+    .navbar-input {
+        width: 250px;
+    }
+    .logo {
+        width: 45px;
+    }
+    .overflow {
+        display: none;
+    }
+    .unsplash-input {
+        width: 590px;
+    }
+    .image-content {
+        top: 20%;
+        left: 16%;
+    }
+    .read-more {
+        left: 43%;
+    }
+    .flex-col {
+        max-width: 31%;
+        margin: 0.7rem;
+    }
+    .sign-up-flex {
+        flex-direction: column;
+    }
+    .side-img {
+        width: 100%;
+        height: 30%;
+        padding: 0;
+        background-position: center;
+    }
+    .sign-up {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .user-name {
+        flex: 50%;
+        max-width: 100%;
+    }
+}

@@ -11,3 +11,396 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* ------------------------------------------------------------------------------------------------- */
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  padding: 0;
+}
+
+.button {
+  background-color: transparent;
+  border: transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.button_with_border {
+  background-color: transparent;
+  height: 30px;
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+.button_with_bottom
+/* =================Nav bar ================= */
+
+nav {
+  color: white;
+}
+
+nav img {
+  width: 180px;
+}
+
+.search-input {
+  width: 640px;
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border-radius: 25px;
+  background-color: #DCDCDC;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+nav .submit:active {
+  border: 2px solid black;
+}
+
+.menu-box {
+  display: flex;
+  padding: 30px;
+}
+
+.menu-box li {
+  list-style-type: none;
+}
+
+.menu-box .col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/* -------------------------------Nav end--------------------- */
+
+
+/* -----------------------------Button List------------------------- */
+
+.buttonList_left {
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.buttonList_right {
+  border: transparent;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+
+/* -----------------------------Button List ends------------------------- */
+
+
+/* hero strats */
+
+.m_display_image {
+  /* background: url("/public/Resources/Images//BG.jpg"); */
+  height: 550px;
+  position: relative;
+}
+
+.splash_content {
+  position: absolute;
+  color: white;
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
+}
+
+.splash_content input {
+  width: 100%;
+  height: 40px;
+}
+
+.splash_content ul {
+  padding-left: 0;
+}
+
+.splash_content li {
+  float: left;
+  list-style-type: none;
+}
+
+.splash_content a {
+  color: white;
+  margin-left: 2px;
+  text-decoration: none;
+}
+
+
+/* hero end */
+
+
+/* unsplash award */
+
+.black {
+  margin: 25px;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+/* unsplash award ends  */
+
+
+/* lower cards images */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 0 4px; */
+}
+
+.column {
+  flex: 31%;
+  max-width: 33.33%;
+  padding: 1%;
+}
+
+.row .column img {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+/* ------------------------------------------------- */
+
+
+/* login model  */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.fb-btn {
+  width: 50%;
+  height: 35px;
+  background: #5890FF;
+  color: #fff;
+}
+
+
+/* Modal Content */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+/* The Close Button */
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* login */
+
+.login-model-form a {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #909090;
+}
+
+.login-width {
+  width: 65%;
+  margin: auto;
+}
+
+.login-width label {
+  display: block;
+  text-align: left;
+}
+
+.login-width input {
+  width: 100%;
+  height: 30px;
+}
+
+.login-width .fb-button {
+  width: 100%;
+}
+
+.login-width .login-submit-btn {
+  background: black;
+  color: #fff;
+  width: 100%;
+  height: 35px;
+}
+
+
+/* search Dropdown  */
+
+.search-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 97%;
+  margin-top: 5px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: Black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.875rem;
+}
+
+.search-content p {
+  margin-left: 10px;
+}
+
+.search-types {
+  margin: 30px 0;
+}
+
+.search-topics {
+  border: 1px solid grey;
+  height: 35px;
+  border-radius: 5px;
+  color: grey;
+  margin-left: 10px;
+}
+
+.search-topics a {
+  margin: 10px 10px;
+  color: Grey;
+}
+
+.img-btn {
+  /* background: url("../images/photo-grid-4.jpg"); */
+  height: 35px;
+  width: 35px;
+  background-position: center;
+}
+
+.search-types span {
+  color: grey;
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 0px 10px;
+  color: grey;
+  cursor: pointer;
+}
+
+
+/* media query for 992px  */
+
+@media screen and (max-width: 992px) {
+  nav img {
+      width: 15%;
+  }
+  nav input {
+      width: 33%;
+      margin-top: 7px;
+      margin-left: 20px;
+      margin-bottom: 5px;
+      border-radius: 25px;
+      background-color: #DCDCDC;
+  }
+  .column {
+      flex: 48%;
+      max-width: 47.7%;
+      padding: 1%;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  nav img {
+      width: 5%;
+  }
+  nav input {
+      width: 25%;
+      margin-top: 7px;
+      margin-left: 20px;
+      margin-bottom: 5px;
+      border-radius: 25px;
+      background-color: #DCDCDC;
+  }
+  .column {
+      flex: 98%;
+      max-width: 98.7%;
+      padding: 1%;
+  }
+}
